@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image MD Probe</title>
+  <link rel="stylesheet" href='../static/styles.css'>
+</head>
+<body>
+  <header>
+    <h1>Image MD Probe</h1>
+    <div class="upload-section">
+      <input type="file" id="imageInput" accept="image/*">
+      <button id="uploadBtn">Upload Image</button>
+    </div>
+  </header>
+  <main>
+    <div class="result-area">
+      <h2>Diagnosis Result</h2>
+      <div class="image-container">
+        <img id="uploadedImage" src="#" alt="Uploaded Image">
+      </div>
+      <p id="diagnosisResult">Waiting for diagnosis...</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Image MD Probe</p>
+  </footer>
+  <script src="../static/script.js"></script>
+</body>
+</html>
